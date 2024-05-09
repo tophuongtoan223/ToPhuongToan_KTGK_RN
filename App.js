@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import "react-native-gesture-handler"
 
 import Routers from './routers/Routers';
-import { MycontextControllerProvider } from 'D:\React Native\KTGK\store';
+import { MycontextControllerProvider } from '../store';
 const App = () => {
   return (
     <MycontextControllerProvider>
